@@ -1,0 +1,83 @@
+@font-face {
+    font-family: BentonSans;
+    src: url(./fonts/BentonSans-Regular_T.ttf);
+}
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%
+}
+body {
+    padding:20px;
+    background-color: #1e1e1e;
+}
+h1, h2, h3, h4, h5, h6, p, li {
+ margin-bottom: 16px;
+ font-family: BentonSans;
+ color: #fff;
+
+}
+label {
+    color: #fff;
+}
+label, input {
+    display: block;
+    font-family: BentonSans;
+}
+input {
+    margin-bottom: 20px;
+}
+li {
+    margin-left: 40px;
+}
+button, .btn {
+    height: 30px;
+    padding: 5px;
+    border: none;
+    background-color: #3b3b3b;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+}
+.student-el {
+    margin-bottom: 50px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+}
+
+.form-row input {
+    width: 150px;
+}
+
+.long-input {
+    width: 310px;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#app div {
+    background-color: #3b3b3b;
+    border-radius: 5px;
+    width: 310px;
+    color: #fff;
+    padding: 20px;
+}
